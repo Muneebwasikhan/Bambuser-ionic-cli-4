@@ -1,0 +1,7 @@
+{
+  "name": "bambuser-examplebroadcaster-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

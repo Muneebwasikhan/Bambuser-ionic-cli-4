@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Basic player
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div class="player-container">
+    <div #player></div>
+    <ion-icon class="logo" name="ionitron"></ion-icon>
+  </div>
+
+  <div class="player-log">
+    <div *ngFor="let line of playerLog">{{ line }}</div>
+  </div>
+
+</ion-content>
